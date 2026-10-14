@@ -1,11 +1,14 @@
 package consultas.modelo;
 
 public class Clinica {
-    private int id;
-    private String nome;
+    private final int id;
+    private final String nome;
 
-    public Clinica(int id, String nome) { }
+    public Clinica(int id, String nome) {
+        this.id = id;
+        this.nome = nome;
+    }
 
-    public int getId() { return 0; }
-    public String getNome() { return null; }
+    public int getId() { return id; }
+    public String getNome() { return nome; }
 }

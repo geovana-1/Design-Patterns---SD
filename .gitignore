@@ -2,4 +2,5 @@ out/
 *.class
 .idea/
 *.iml
-fontes.txt.mcp.json
+fontes.txt
+.mcp.json
